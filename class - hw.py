@@ -62,6 +62,7 @@ class Orc(Person):
         else:
             print('Орг проиграл в равной битве!')
 
+
 human = Human()
 human.set_health_hum(0)
 human.description()
