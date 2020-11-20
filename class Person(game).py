@@ -82,4 +82,3 @@ warrior1.plate('legendary')
 warrior1.sword('legendary')
 warrior1.move(40)
 warrior1.description()
-
