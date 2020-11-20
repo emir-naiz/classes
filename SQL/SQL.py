@@ -20,7 +20,7 @@ cursor = connection.cursor() #cursor - для выполнение комман�
 # cursor.execute("SELECT name, salary FROM Students WHERE salary BETWEEN 100000 AND 1000000")
 # cursor.execute("UPDATE Students SET phone = 0700216612 WHERE name = 'meerim' ")
 # cursor.execute("DELETE FROM Students WHERE salary >= 1000000")
-# cursor.execute("UPDATE Students SET sex = male WHERE name = 'emir'")
+# cursor.execute("UPDATE Students SET sex = 1 WHERE name = 'zarina'")
 print(cursor.fetchall())
 connection.commit()
 
